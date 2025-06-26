@@ -2,9 +2,8 @@ import zipfile
 import io
 import PyPDF2 as pf
 
-# Input and Output Paths
-input_zip_path = "C:\\Users\\HITESH S ROY\\OneDrive\\Desktop\\Agreement.zip"
-output_zip_path = "C:\\Users\\HITESH S ROY\\OneDrive\\Desktop\\Only_3rd_Pages.zip"  
+input_zip_path = "" #enter input path
+output_zip_path = "" #enter output path 
 
 in_memory = io.BytesIO()
 
